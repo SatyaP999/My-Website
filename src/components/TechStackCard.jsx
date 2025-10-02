@@ -20,7 +20,7 @@ function TechStackCard() {
                 <img 
                     src={`${import.meta.env.BASE_URL}FastAPI.svg`} 
                     alt="FastAPI"
-                    className="w-15 h-15"
+                    className="w-12 h-12"
                 />
                 <p className="text-sm font-bold">
                     FsstAPI
@@ -31,7 +31,7 @@ function TechStackCard() {
                 <img 
                     src={`${import.meta.env.BASE_URL}langchain.svg`} 
                     alt="Langchain"
-                    className="w-15 h-15"
+                    className="w-12 h-12"
                 />
                 <p className="text-sm font-bold">
                     LangChain
