@@ -1,4 +1,6 @@
 import { FaReact, FaPython } from "react-icons/fa";
+import fastapi from "../assets/FastAPI.svg";
+import langchain from "../assets/langchain.svg"
 function TechStackCard() {
     return (
         <div className="flex  space-x-6 m-4">
@@ -18,7 +20,7 @@ function TechStackCard() {
 
             <div className="flex flex-col justify-center bg-gray-100 rounded-2xl p-4 w-38 items-center space-y-2">
                 <img 
-                    src="/fastAPI.svg"
+                    src={fastapi}
                     alt="FastAPI"
                     className="w-15 h-15"
                 />
@@ -29,7 +31,7 @@ function TechStackCard() {
 
             <div className="flex flex-col justify-center bg-gray-100 rounded-2xl p-4 w-38 items-center space-y-2">
                 <img 
-                    src="/langchain.svg"
+                    src={langchain}
                     alt="Langchain"
                     className="w-15 h-15"
                 />
