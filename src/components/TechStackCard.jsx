@@ -18,7 +18,7 @@ function TechStackCard() {
 
             <div className="flex flex-col justify-center bg-gray-100 rounded-2xl p-4 w-38 items-center space-y-2">
                 <img 
-                    src="/public/fastAPI.svg"
+                    src="/fastAPI.svg"
                     alt="FastAPI"
                     className="w-15 h-15"
                 />
@@ -29,7 +29,7 @@ function TechStackCard() {
 
             <div className="flex flex-col justify-center bg-gray-100 rounded-2xl p-4 w-38 items-center space-y-2">
                 <img 
-                    src="/public/langchain.svg"
+                    src="/langchain.svg"
                     alt="Langchain"
                     className="w-15 h-15"
                 />
